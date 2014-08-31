@@ -4,6 +4,8 @@ require 'simplecov'
 require 'coveralls'
 require 'rspec'
 
+Coveralls.wear!
+
 SimpleCov.formatter = SimpleCov::Formatter::MultiFormatter[
   Coveralls::SimpleCov::Formatter
 ]
