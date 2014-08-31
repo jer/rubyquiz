@@ -1,5 +1,5 @@
 [![Build Status](https://travis-ci.org/jer/rubyquiz.png?branch=master)](https://travis-ci.org/jer/rubyquiz)
-[![Coverage Status](https://coveralls.io/repos/jer/rubyquiz/badge.png)](https://coveralls.io/r/jer/rubyquiz)
+[![Coverage Status](https://coveralls.io/repos/jer/rubyquiz/badge.png?branch=master)](https://coveralls.io/r/jer/rubyquiz?branch=master)
 
 # Rubyquiz Solutions
 
