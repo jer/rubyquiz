@@ -1,3 +1,5 @@
+# Encoding: UTF-8
+
 module Quiz1SolitaireCipher
   # An implementation of the Solitaire Cipher from RubyQuiz #1
   # http://rubyquiz.com/quiz1.html

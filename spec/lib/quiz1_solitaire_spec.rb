@@ -1,3 +1,5 @@
+# Encoding: UTF-8
+
 require 'quiz1_solitaire'
 
 describe Quiz1SolitaireCipher::SolitaireCipher, '#format_plaintext' do

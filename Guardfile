@@ -1,5 +1,4 @@
-# A sample Guardfile
-# More info at https://github.com/guard/guard#readme
+# Encoding: UTF-8
 # rubocop: disable Style/RegexpLiteral
 
 guard :rubocop do

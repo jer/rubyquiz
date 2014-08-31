@@ -1,3 +1,5 @@
+# Encoding: UTF-8
+
 require 'bundler/setup'
 require 'rubocop/rake_task'
 require 'cane/rake_task'
