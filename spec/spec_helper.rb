@@ -4,10 +4,9 @@ require 'simplecov'
 require 'coveralls'
 require 'rspec'
 
-Coveralls.wear!
-
 SimpleCov.formatter = SimpleCov::Formatter::MultiFormatter[
+  SimpleCov::Formatter::HTMLFormatter,
   Coveralls::SimpleCov::Formatter
 ]
-SimpleCov.minimum_Coverage 95
+SimpleCov.minimum_coverage 95
 SimpleCov.start

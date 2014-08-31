@@ -1,5 +1,6 @@
 # Encoding: UTF-8
 
+require 'spec_helper'
 require 'quiz1_solitaire'
 
 describe Quiz1SolitaireCipher::SolitaireCipher, '#format_plaintext' do
