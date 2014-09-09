@@ -16,5 +16,11 @@ module Quiz1SolitaireCipher
 
       plaintext_arr.join(' ')
     end
+
+    def make_numeric(text)
+      text.split('').map do |letter|
+        letter.ord - 'A'.ord + 1 if letter =~ /[A-Z]/
+      end.compact
+    end
   end
 end
