@@ -22,5 +22,11 @@ module Quiz1SolitaireCipher
         letter.ord - 'A'.ord + 1 if letter =~ /[A-Z]/
       end.compact
     end
+
+    def summing_encrypt(plaintext, key)
+      plaintext.zip(key).map do |a, b|
+        (a + b) % 26
+      end
+    end
   end
 end
